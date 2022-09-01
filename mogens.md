@@ -1,12 +1,11 @@
-Social Data Science
+mogens
 ================
 
-## Headline
+## lab#1
 
-[DETTE ER LINKET](mogens.md) This is an R Markdown format used for
-publishing markdown documents to GitHub. When you click the **Knit**
-button all R code chunks are run and a markdown file (.md) suitable for
-publishing to GitHub is generated.
+This is an R Markdown format used for publishing markdown documents to
+GitHub. When you click the **Knit** button all R code chunks are run and
+a markdown file (.md) suitable for publishing to GitHub is generated.
 
 ## Including Code
 
@@ -25,6 +24,10 @@ summary(cars)
     ##  Max.   :25.0   Max.   :120.00
 
 ## Including Plots
+
+You can also embed plots, for example:
+
+![](mogens_files/figure-gfm/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.

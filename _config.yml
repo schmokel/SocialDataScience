@@ -4,3 +4,25 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme 
+show_downloads: false
+colors:
+    gradient_left: "#03408a" #"#155799"
+    gradient_right: "#4191f2" #"#159957"
+    header: "#fff"
+    android_theme: "#000" # this default to gradient_color
+    link: "#1e6bb8" # this default to gradient_color
+    section_title: "#155799" # this default to gradient_color
+#google_analytics: [Your Google Analytics tracking ID]
+google_analytics_anonymize: false
+darkmode: false
+#hide_first_title: false # Useful if README.md is used on both github and pages
+#logo_url: ./logo.png # Either absolute or relative url
+#syntax_theme: ./syntax.css # Leave empty for default, otherwise link to a pygments stylesheet
+buttons:
+ #     zip_url: http://example.com/
+ #     zip_title: Title
+      zip_hide: true
+ #     tar_url: http://example.com/
+      tar_title: Title
+      tar_hide: true
+      github_hide: true # hides "View on Github"  

@@ -7,6 +7,30 @@ Social Data Science
 
 
 
+
+## Overview
+
+- [Social Data Science](#social-data-science)
+  - [Overview](#overview)
+  - [Semester Plan](#semester-plan)
+  - [Course Description](#course-description)
+  - [Literature](#literature)
+  - [Lesson #1  - Introduction to the course & Data Science as a field](#lesson-1----introduction-to-the-course--data-science-as-a-field)
+  - [Lesson #2  - Programming Fundamentals](#lesson-2----programming-fundamentals)
+  - [Lesson #3  - Data Science Fundamentals](#lesson-3----data-science-fundamentals)
+  - [Lesson #4  - Working with API's](#lesson-4----working-with-apis)
+  - [Lesson #5  - Network Analysis](#lesson-5----network-analysis)
+  - [Lesson #6  - Webscraping in R](#lesson-6----webscraping-in-r)
+  - [Lesson #7  - Text as data: Who say's what?](#lesson-7----text-as-data-who-says-what)
+  - [Lesson #8  - Machine Learning 1](#lesson-8----machine-learning-1)
+  - [Lesson #9  - Machine Learning 2](#lesson-9----machine-learning-2)
+  - [Lesson #10 - Machine Learning 3 & finale remarks](#lesson-10---machine-learning-3--finale-remarks)
+
+
+
+
+## Semester Plan
+
 |Lesson|Week|Date|
 |------|----|----|
 |#1|37|16.09.2022|
@@ -24,35 +48,18 @@ Social Data Science
 |#10|49|09.12.2022|
 
 
-## Overview
-
-- [Social Data Science](#social-data-science)
-  - [Overview](#overview)
-  - [Course Description](#course-description)
-  - [Literature](#literature)
-  - [Lecture #1  - Introduction to the course & Data Science as a field](#lecture-1----introduction-to-the-course--data-science-as-a-field)
-  - [Lecture #2  - Programming Fundamentals](#lecture-2----programming-fundamentals)
-  - [Lecture #3  - Data Science Fundamentals](#lecture-3----data-science-fundamentals)
-  - [Lecture #4  - Working with API's](#lecture-4----working-with-apis)
-  - [Lecture #5  - Network Analysis](#lecture-5----network-analysis)
-  - [Lecture #6  - Webscraping in R](#lecture-6----webscraping-in-r)
-  - [Lecture #7  - Text as data: Who say's what?](#lecture-7----text-as-data-who-says-what)
-  - [Lecture #8  - Machine Learning 1](#lecture-8----machine-learning-1)
-  - [Lecture #9  - Machine Learning 2](#lecture-9----machine-learning-2)
-  - [Lecture #10 - Machine Learning 3 & finale remarks](#lecture-10---machine-learning-3--finale-remarks)
-
 
 ## Course Description
 The rapid growth in the use of social media and the availability of data to analyze it has opened new and exciting possibilities for social and political research. To equip students with the ability to conduct such research themselves, this course introduces the analysis of online and social media data. It covers the analysis of these data from the research design stage through to data collection, data cleaning, and methods for analysis. The course thus takes a hands-on approach to conduct empirical research to answer some of the big questions in social media research. Students will become familiar with the many research designs both big data studies, quasi-experiments and experiments in an online context and methods available for conducting social media research; learn to be critical of existing methods and research designs and develop the technical skills to conduct such research themselves. The course will thereby provide the students with skills to answer their own research question of interest in an online context. Furthermore, both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital political scientist for the present and future labor market 
 This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R or Python, although students are not expected to have experience with the language prior to taking the course. An introduction to R or python will be provided at the beginning of the class.
-The course will be a combination of lectures, student presentations, and labs.
+The course will be a combination of Lessons, student presentations, and labs.
 
 ## Literature
 We will cover this in the first lesson - don't buy anything in advance
 
 
 
-## Lecture #1  - Introduction to the course & Data Science as a field
+## Lesson #1  - Introduction to the course & Data Science as a field
 
 
 
@@ -106,7 +113,7 @@ adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 
 
 
-## Lecture #2  - Programming Fundamentals
+## Lesson #2  - Programming Fundamentals
 
 
 ##### Focus 

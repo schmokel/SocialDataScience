@@ -3,9 +3,10 @@ Social Data Science
 #### Teacher: Rasmus W. Schmøkel
 
 ### Fall 2022
-In order to understand, produce and consume the next generation of social science studies students need to know how to implement and interpret data science methods. 
-The purpose of this course is to introduce students to web based data gathering techniques, some text analyses and to simple implementations of machine learning. These tools have proven to be extremely power full and some of them are directly responsible for the automatization wave that is currently remolding and restructuring many industries including the public sector. Hence understanding how and what different models do is essential for students who want to be prepared for a labor market, which increasingly demands knowledge of where efficiency can be gained by implementing data science methods.
-The course begin by an introduction to R but as already stipulated it is expected that students work on their programing skills outside class.
+The rapid growth in the use of social media and the availability of data to analyze it has opened new and exciting possibilities for social and political research. To equip students with the ability to conduct such research themselves, this course introduces the analysis of online and social media data. It covers the analysis of these data from the research design stage through to data collection, data cleaning, and methods for analysis. The course thus takes a hands-on approach to conduct empirical research to answer some of the big questions in social media research. Students will become familiar with the many research designs both big data studies, quasi-experiments and experiments in an online context and methods available for conducting social media research; learn to be critical of existing methods and research designs and develop the technical skills to conduct such research themselves. The course will thereby provide the students with skills to answer their own research question of interest in an online context. Furthermore, both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital political scientist for the present and future labor market 
+This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R or Python, although students are not expected to have experience with the language prior to taking the course. An introduction to R or python will be provided at the beginning of the class.
+The course will be a combination of both lectures, student presentations, and labs.
+
 
 ## Overview
 
@@ -35,25 +36,15 @@ The course begin by an introduction to R but as already stipulated it is expecte
 
 
 
+
+
 ##### Required readings
-
-[Sexiest job in the 21st century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
-
-[How to become a data scientist](https://www.mastersindatascience.org/careers/data-scientist/)
-
-
-
-R in a nutshell chap. 1
-
-[Installing R & Rstudio](https://rstudio-education.github.io/hopr/starting.html)
 
 
 
 
 ##### Optional readings
 
-[What is Data Science - O'Reilly](https://www.oreilly.com/radar/what-is-data-science/)
-[A Very Short History of Data Science](https://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/?sh=74c6956055cf)
 
 
 ### lab - Getting started with R & Rstudio
@@ -80,12 +71,6 @@ R in a nutshell chap. 1
 
 ##### Required readings
 
-[Leeper, Thomas J. “Really Introductory Introduction to R”](https://thomasleeper.com/Rcourse/Intro2R/Intro2R.pdf)
-
-Add reading with R types!!!
-Add reading with programming principles!!!
-
-
 ##### Optional readings readings
 
 
@@ -94,11 +79,6 @@ Add reading with programming principles!!!
 
 
 
-
-[Leeper, Thomas J. “Really Introductory Introduction to R”](https://thomasleeper.com/Rcourse/Intro2R/Intro2R.pdf)
-
-Add reading with R types!!!
-Add reading with programming principles!!!
 
 
 ## Lecture #3  - Data Science Fundamentals
@@ -111,11 +91,6 @@ Add reading with programming principles!!!
 
 
 ##### Required readings  
-Zhang, Christine. “Tricks for Cleaning Your Data in R”, u.å., 12.  
-
-Wickham (2014) *tidy data*
-
-
 
 ##### Optional readings
 
@@ -141,12 +116,6 @@ Wickham (2014) *tidy data*
 ### lab 
 
 
-[Twitter API Documentation](https://developer.twitter.com/en/docs/tutorials/getting-started-with-r-and-v2-of-the-twitter-api)
-[Danish MP's on twitter](https://twitter.com/i/lists/81497947?lang=da)
-
-
-Go through API-script
-Collect data from danish MP's (based on split document)
 
 
 ## Lecture #5  - Network analysis
@@ -163,9 +132,6 @@ Analyze ties based on lecture #4
 
 
 ### lab 
-
-
-[Guide to do network analysis in R](https://levelup.gitconnected.com/how-to-do-amazing-twitter-network-analysis-in-r-2c258537dd7d)
 
 
 ## Lecture #6  - Webscraping in R
@@ -190,23 +156,10 @@ Analyze ties based on lecture #4
 
 ##### Required readings
 
-*Monroe, Burt L., Michael P. Colaresi, og Kevin M. Quinn (2008). “Fightin’ Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict”. Political Analysis 16, nr. 4: 372–403. https://doi.org/10.1093/pan/mpn018.*
-
 ##### Optional readings
-
-*Monroe et. al. (2008)'s dirichlet model applied by Bisgaard*:
-
-
-Bisgaard, Martin. “How Getting the Facts Right Can Fuel Partisan-Motivated Reasoning”. American Journal of Political Science 63, nr. 4 (2019): 824–39. https://doi.org/10.1111/ajps.12432.
-
-
-Bisgaard, Martin. “Replication Data for: How Getting the Facts Right Can Fuel Partisan Motivated Reasoning”. Harvard Dataverse, 22. november 2019. https://doi.org/10.7910/DVN/FTFJTV.
 
 
 ### lab 
-
-
-Apply dirichlet model on collected twitter data
 
 
 ## Lecture #8  - Machine Learning 1

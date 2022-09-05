@@ -1,0 +1,150 @@
+---
+title: "Lab#1 - Getting Started with R & Rstudio"
+author: "Rasmus W. Schmøkel"
+date: '2022-09-05'
+output: html_document
+---
+
+Welcome to the R tutorial of 'Social Data Science'! Exercise sessions and self-study tasks will help you to apply the knowledge learned in class and gain experience.
+
+# Introduction to R
+
+R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. In this course we will be using R in the RStudio environment to perform our exercises. Exercise sheets and solutions will be R Markdown documents that combine and format text, code, and code output.
+
+Follow the instructions from today's readings to download and install R and RStudio on your computer:
+
+Once you have successfully installed R and RStudio, you can follow through the basic commands below to get familiar with R.
+
+
+**Remember that there is a great community using R and you can always search online for the way to do things - google is your friend**
+
+
+
+# Getting help
+
+If you don't know what a function does, try searching for help with "?"
+```{r echo=TRUE}
+? mean
+```
+
+If you don't know how to do something, your fellow programmer is your friend. For example:
+
+https://stats.stackexchange.com/questions/157661/how-to-calculate-mean-median-mode-std-dev-from-distribution
+
+This is a really useful search engine (Google plus filter for R-relevant content): https://rseek.org/
+
+or just google.com
+
+# Simple operations
+
+You can use either "<-" or "=" to assign a value to a variable.
+
+```{r echo=TRUE}
+a <- 5
+b = c(2,4,6,8)
+d <- c(3,5,7,9)
+e <- 7
+```
+The "c" in the above vector assignment stands for combine into a vector. The elements in the array are indexed from 1 to n. (in some other programming languages the index starts from 0)
+
+You can see the result by typing the variable name to the console.
+```{r}
+a
+b
+```
+
+Selecting the 3rd element of the vector:
+```{r}
+d[3]
+```
+
+Now we can do some arithmetic with the vectors.
+
+```{r}
+a*b
+```
+
+```{r}
+b+d
+b+1
+```
+
+Notice when a vector is multiplied with a scalar (=a single value/number), each of the elements in the vector is multiplied. And when two vectors are added/multiplied, they must be the same dimensions and the arithmetic happens elementwise.
+
+Boolean values can also be stored and manipulated in R
+
+```{r}
+b1 <- TRUE
+b2 <- 1>2
+```
+
+
+rep, seq, and rev are useful functions to produce and manipulate simple vectors
+
+```{r}
+rep(1,7)
+```
+
+```{r}
+seq(1,7,by=2)
+```
+
+```{r}
+rev(seq(1,7))
+```
+
+Your turn:
+
+**1) We create a vector V with the even numbers between 1 and 10. Show its content.**
+```{r}
+#Your code here
+
+```
+
+
+**2) look at its third entry and test if it is larger than 3.**
+```{r}
+#Your code here
+
+```
+
+**3) Reverse its order and divide each of its entries by 2.**
+```{r}
+#Your code here
+```
+
+**4) Check whether the value of a is higher than the value of  object 'e'**
+```{r}
+#Your code here
+
+
+```
+
+**5) Check whether 'alpha' and 'beta' is equal**
+```{r}
+
+
+alpha <- round(log(150))
+beta <- 50/10
+
+#Your code here
+
+
+```
+
+
+**8) Install the package 'ggplot2'**
+```{r}
+
+#Your code here
+```
+**9) Load the package 'ggplot2'**
+```{r}
+
+#Your code here
+```
+
+**10) ggplot2 is used for plotting basically everything - and done beautifully. We will return to data visualization using ggplot2 in lesson 3. Until then, here is a basic plot using the built-in dataset 'mtcars'**
+```{r}
+ggplot() + geom_point(data = mtcars, aes(x = disp, y = mpg))
+```

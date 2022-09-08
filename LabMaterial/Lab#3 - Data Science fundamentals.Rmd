@@ -12,20 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ** load/install 'dplyr', 'tidyr' & 'ggplot2'
 ```{r}
 
-library(dplyr)
-library(ggplot2)
+
 
 ```
 # Reading data
 
 Data is essential for our tasks.  A table can be easily imported from local files as a csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use a survey result stored in a .csv file:
-**1 Load the dataset 'ppepe_semi.csv'**
+**1 Load the dataset 'ppepe_semi.csv' and print the first 10 rows**
 
 ```{r}
-
-df <- read.csv("data/ppepe-master/ppepe_semi.csv")
+#your code here
 head(df, n=10)
-
 ```
 WOOPS! Doesn't look right?
 
@@ -37,14 +34,11 @@ The read.csv and read.table functions have some important parameters:
 - stringsAsFactors (TRUE/FALSE) whether strings should be converted to categorical factors
 
 
-**2 Load the data again so that it looks right. (Also remember to check the types of the columns) To convert vote_share to numeric, use "as.numeric(sub(",", ".", Input, fixed = TRUE))"** 
+**2 Load the data again so that it looks right. (Also remember to check the types of the columns) To convert vote_share to numeric, use "as.numeric(sub(",", ".", df$vote_share, fixed = TRUE))"** 
 
 ```{r}
 
-df <- read.csv("data/ppepe-master/ppepe_semi.csv", header = TRUE, sep = ";", quote = "\"",
-                           stringsAsFactors = FALSE)
-head(df, n=10)
-df$vote_share <- as.numeric(sub(",", ".", df$vote_share, fixed = TRUE))
+
 
 ```
 
@@ -85,34 +79,30 @@ names(df)
 ```
 **3 filter denmark's observations into a seperate df. Use Dplyr and the '%>%' pipe operator**
 ```{r}
-df_dk <- df %>% 
-  filter(country == "Denmark")
+#Your code here
 head(df_dk)
 ```
 
 **4 Make a lineplot using ggplot2 showing right and left wings vote shares over the years  in denmark** 
 ```{r}
-ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
-  geom_line()
+
 
 ```
 **5 Now, make a lineplot using ggplot2 showing showing the right and left wings vote share seperately/group-wise** 
 ```{r}
-ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
-  geom_line()
+
 
 ```
 
 **6 What is the mean vote share of the left wing in France & Germany in year 2019?** 
 ```{r}
-ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
-  geom_line()
+
 
 ```
 
-**7 Load the data 'load the data wb_health_gdp.csv**
+**7 Load the data 'load the data wb_health_gdp.csv (use skip = 4)**
 ```{r}
-wb <- read.csv("data/wb_health_gdp.csv", skip = 4)
+
 
 ```
 
@@ -123,9 +113,7 @@ wb <- read.csv("data/wb_health_gdp.csv", skip = 4)
 
 ```{r}
 
-wb_tidy <- wb %>%
-  select(-X1963) %>% 
-  gather(X1960:X2017, key = "year", value = "health_pct") 
+
 
 ```
 

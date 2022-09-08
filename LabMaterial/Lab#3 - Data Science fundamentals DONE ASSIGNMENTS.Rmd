@@ -1,0 +1,156 @@
+---
+title: "Lab#3"
+author: "Rasmus W. Schmøkel"
+date: '2022-09-05'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+** load/install 'dplyr', 'tidyr' & 'ggplot2'
+```{r}
+
+library(dplyr)
+library(ggplot2)
+
+```
+# Reading data
+
+Data is essential for our tasks.  A table can be easily imported from local files as a csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use a survey result stored in a .csv file:
+**1 Load the dataset 'ppepe_semi.csv'**
+
+```{r}
+
+df <- read.csv("data/ppepe-master/ppepe_semi.csv")
+head(df, n=10)
+
+```
+WOOPS! Doesn't look right?
+
+The read.csv and read.table functions have some important parameters:
+
+- header (TRUE/FALSE) whether the first line of the file contains the names of the columns
+- sep: character that separates columns in the file
+- quote: character that defines strings in the file, to prevent strings to be divided in two columns
+- stringsAsFactors (TRUE/FALSE) whether strings should be converted to categorical factors
+
+
+**2 Load the data again so that it looks right. (Also remember to check the types of the columns) To convert vote_share to numeric, use "as.numeric(sub(",", ".", Input, fixed = TRUE))"** 
+
+```{r}
+
+df <- read.csv("data/ppepe-master/ppepe_semi.csv", header = TRUE, sep = ";", quote = "\"",
+                           stringsAsFactors = FALSE)
+head(df, n=10)
+df$vote_share <- as.numeric(sub(",", ".", df$vote_share, fixed = TRUE))
+
+```
+
+
+# Data frames
+
+Data frames are a general way to store multimodal data in R. They are composed of rows with one value in each column.
+```{r}
+names(df)
+head(df)
+```
+
+You can access individual rows:
+```{r}
+df[2,]
+```
+
+And individual values by position:
+```{r}
+df[3,4]
+```
+
+Columns in dataframes are accessed with the "$" operator:
+```{r}
+df$vote_share
+```
+
+You can index entries in the column:
+```{r}
+df$vote_share[1:3]
+```
+
+You can add a column
+```{r}
+df$sequence <- seq(1,nrow(df))
+head(df, n=3)
+names(df)
+```
+**3 filter denmark's observations into a seperate df. Use Dplyr and the '%>%' pipe operator**
+```{r}
+df_dk <- df %>% 
+  filter(country == "Denmark")
+head(df_dk)
+```
+
+**4 Make a lineplot using ggplot2 showing right and left wings vote shares over the years  in denmark** 
+```{r}
+ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
+  geom_line()
+
+```
+**5 Now, make a lineplot using ggplot2 showing showing the right and left wings vote share seperately/group-wise** 
+```{r}
+ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
+  geom_line()
+
+```
+
+**6 What is the mean vote share of the left wing in France & Germany in year 2019?** 
+```{r}
+ggplot(df_dk, aes(x = year, y=as.numeric(vote_share))) +
+  geom_line()
+
+```
+
+**7 Load the data 'load the data wb_health_gdp.csv**
+```{r}
+wb <- read.csv("data/wb_health_gdp.csv", skip = 4)
+
+```
+
+**8 Describe the data. Is the data tidy? Why/why not?**
+
+**9 Remove the year(s) with no data, Transpose the columns to long data format with year as key and value as health_pct. Also, type cast columns with incorrect type (Should year be a string e.g.?). Remove years with no health_pct data. Relabel Country.Name to Country**
+ 
+
+```{r}
+
+wb_tidy <- wb %>%
+  select(-X1963) %>% 
+  gather(X1960:X2017, key = "year", value = "health_pct") 
+
+```
+
+**10 describe inner join, left join and full join**
+
+**11 join wb_tidy and df by country and year - which join are you using and why? Call the new df ''df_tidy_joined'**
+```{r}
+
+
+```
+
+
+**12 Save 'df_tidy_joined' as a file in the .Rdata or .RDS format for later use. **
+```{r}
+
+
+```
+
+
+**13 What is the advantage of using .RDS instead of .csv? **
+```{r}
+
+
+```
+
+
+
+All right! That was all for now this time. From next lesson we will stop working in markdown/notebooks and instead work in real scripts. Also, instead of closed small questions you will get bigger open questions which you yourself need to break down into solveable pieces (based on what you have already learned and are learning in the current lesson). 

@@ -169,7 +169,9 @@ Friedman, Linda Weiser. “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF 
 ### Lab - Data Science Fundamentals
 
 [Lab#3 - Data Science fundamentals.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
+
 [wb_health_gdp.csv](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/data/wb_health_gdp.csv)
+
 [ppepe_semi.csv](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/data/ppepe-master/ppepe_semi.csv)
 
 

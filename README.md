@@ -135,7 +135,7 @@ Adler (2012) *R in a nutshell*, chapter 4+5+6+7+9, 2nd edition
 ##### Optional Readings 
 [The Ultimate Beginner’s Guide to Data Types in R](https://medium.com/analytics-vidhya/the-ultimate-beginners-guide-to-data-types-in-r-ac4358985150)
 
-Friedman, Linda Weiser. “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAMMING LANGUAGES”, u.å., 17.
+Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAMMING LANGUAGES”
 
 ### Lab
 [Lab#2 - Programming Fundamentals.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%232%20-%20Programming%20Fundamentals.Rmd)

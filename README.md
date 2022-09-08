@@ -15,6 +15,7 @@ Social Data Science
   - [Semester Plan](#semester-plan)
   - [Course Description](#course-description)
   - [Course Format](#course-format)
+  - [Outcome - Knowledge, skills & Competences](#outcome---knowledge-skills--competences)
   - [Literature](#literature)
   - [Lesson #1  - Introduction to the course & Data Science as a field](#lesson-1----introduction-to-the-course--data-science-as-a-field)
   - [Lesson #2  - Programming Fundamentals](#lesson-2----programming-fundamentals)
@@ -51,11 +52,32 @@ Social Data Science
 
 
 ## Course Description
-The rapid growth in the use of social media and the availability of data to analyze it has opened new and exciting possibilities for social and political research. To equip students with the ability to conduct such research themselves, this course introduces the analysis of online and social media data. It covers the analysis of these data from the research design stage through to data collection, data cleaning, and methods for analysis. The course thus takes a hands-on approach to conduct empirical research to answer some of the big questions in social media research. Students will become familiar with the many research designs both big data studies, quasi-experiments and experiments in an online context and methods available for conducting social media research; learn to be critical of existing methods and research designs and develop the technical skills to conduct such research themselves. The course will thereby provide the students with skills to answer their own research question of interest in an online context. Furthermore, both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital political scientist for the present and future labor market 
-This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R or Python, although students are not expected to have experience with the language prior to taking the course. An introduction to R or python will be provided at the beginning of the class.
-The course will be a combination of Lessons, student presentations, and labs.
+The rapid growth in the availability and use of data has opened new and exciting possibilities for social and political research. To equip students with the ability to conduct such research themselves, this course introduces the analysis of online and social media data. It covers the analysis of these data from data collection stage, data cleaning, and methods for analysis including network analysis, text-as-data & machine learning. The course starts with an intensive introduction to R and Rstudio. We shall learn how to import and export data, how to structure data and how to plot data. From there we now to visualization of data using the ggplot2 package.
+After this introductory phase we move to a how to gather data from the web using the Rvest package. The next elements are concerned with introduction to automated text analyses and to simple introduction to machine learning methods.
+Both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital political scientist for the present and future labor market 
+This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R, although students are not expected to have experience with the language prior to taking the course it is expected that students work on their programing skills outside class. An introduction to R or python will be provided at the beginning of the class.
+
 
 ## Course Format
+The course will be a combination of Lessons, student presentations, and labs. Typically the lesson will start with a lecture followed by lab time and student presentations. 
+During lab the students are responsible for creating learning.
+
+
+## Outcome - Knowledge, skills & Competences
+Knowledge that enables the student to:
+*Understand the principles of data science and the assumptions behind select statistical methods.
+*Discuss assumptions behind select data science methods
+*Evaluate whether these assumptions are realistic and suggest solutions for breaches.
+*Interpret results from selected statistical methods
+
+Skills that enable students to:
+*Analyze and critically assess scientific articles that use data science methods taught in the course.
+*Select appropriate data science methods for own research questions.
+
+Competences that enables students to:
+*Implement data science methods using R.
+*Correctly select and interpret the quantities of interest resulting from the application of these methods and link these results to research goals.
+
 
 ## Literature
 We will cover this in the first lesson - don't buy anything in advance

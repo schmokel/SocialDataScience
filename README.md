@@ -65,18 +65,29 @@ During lab the students are responsible for co-creating learning.
 
 ## Outcome - Knowledge, skills & Competences
 Knowledge that enables the student to:
+
 *Understand the principles of data science and the assumptions behind select statistical methods.
+
 *Discuss assumptions behind select data science methods
+
 *Evaluate whether these assumptions are realistic and suggest solutions for breaches.
+
 *Interpret results from selected statistical methods
 
+
 Skills that enable students to:
+
 *Analyze and critically assess scientific articles that use data science methods taught in the course.
+
 *Select appropriate data science methods for own research questions.
 
+
 Competences that enables students to:
+
 *Implement data science methods using R.
+
 *Correctly select and interpret the quantities of interest resulting from the application of these methods and link these results to research goals.
+
 
 
 ## Literature

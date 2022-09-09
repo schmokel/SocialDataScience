@@ -91,7 +91,12 @@ Competences that enables students to:
 
 
 ## Literature
-We will cover this in the first lesson - don't buy anything in advance
+We use variuos textbooks, journal papers and internet resources. 
+Data Science (and progamming) has a wonderful open-source culture, however two of the books are not open-source. 
+You can find them online or in *academic books*
+
+* Adler(2012) *R in a nuntshell* 2nd edition ISBN: 9781449312084
+* Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, ISBN: 9781071614174
 
 
 

@@ -52,15 +52,15 @@ Social Data Science
 
 
 ## Course Description
-The rapid growth in the availability and use of data has opened new and exciting possibilities for social and political research. To equip students with the ability to conduct such research themselves, this course introduces the analysis of online and social media data. It covers the analysis of these data from data collection stage, data cleaning, and methods for analysis including network analysis, text-as-data & machine learning. The course starts with an intensive introduction to R and Rstudio. We shall learn how to import and export data, how to structure data and how to plot data. From there we now to visualization of data using the ggplot2 package.
-After this introductory phase we move to a how to gather data from the web using the Rvest package. The next elements are concerned with introduction to automated text analyses and to simple introduction to machine learning methods.
-Both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital political scientist for the present and future labor market 
-This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R, although students are not expected to have experience with the language prior to taking the course it is expected that students work on their programing skills outside class. An introduction to R or python will be provided at the beginning of the class.
+The rapid growth in the availability and use of data has opened new and exciting possibilities for social and political research. This course equips students with the ability to conduct such research themselves. It covers the analysis of these data from data collection stage, data cleaning, and methods for analysis including network analysis, text-as-data & machine learning. The course starts with an intensive introduction to R and Rstudio. We shall learn how to import and export data, how to structure and plot data.
+After this R introductory phase we move to a how to gather data from the web using the Rvest package. The next elements are concerned with introduction to automated text analyses and a simple introduction to machine learning methods.
+Both the public and private sector are increasingly demanding digital skills for both managers and hands-on specialists. This course will contribute to develop the new cohort of digital social scientist for the present and future labor market and academia. 
+This course focuses on the analysis of data. Students should therefore be relatively familiar with quantitative research, and have a basic understanding of statistical analysis and software (e.g. Stata, R, or Python). The course is taught in R, although students are not expected to have experience with the language prior to taking the course it is expected that students work on their programing skills outside class. An introduction to R will be provided at the beginning of the class.
 
 
 ## Course Format
 The course will be a combination of Lessons, student presentations, and labs. Typically the lesson will start with a lecture followed by lab time and student presentations. 
-During lab the students are responsible for creating learning.
+During lab the students are responsible for co-creating learning.
 
 
 ## Outcome - Knowledge, skills & Competences

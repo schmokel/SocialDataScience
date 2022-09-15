@@ -143,7 +143,9 @@ Adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 
 
 [Installing R & Rstudio](https://rstudio-education.github.io/hopr/starting.html)
+
 [Rstudio Interface](https://bookdown.org/daniel_dauber_io/r4np_book/the-rstudio-interface.html)
+
 [*R* Basics](https://bookdown.org/daniel_dauber_io/r4np_book/r-basics-the-very-fundamentals.html)
 
 [Lab#1 - Getting Started with R & Rstudio.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%231%20-%20Getting%20Started%20with%20R%20%26%20Rstudio.Rmd)

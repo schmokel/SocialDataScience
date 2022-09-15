@@ -36,18 +36,19 @@ Social Data Science
 |Lesson|Week|Date|
 |------|----|----|
 |#1|37|16.09.2022|
-|#2|38|23.09.2022|
+|No lesson!|38|23.09.2022|
 |No lesson!|39|30.09.2022|
-|#3|40|07.10.2022|
-|#4|41|14.10.2022|
+|#2|40|07.10.2022|
+|#3|41|14.10.2022|
 |Autumn Holidays - No Lesson|42|21.10.2022|
 |Annual Celebration - No lesson|43|28.10.2022|
-|#5|44|04.11.2022|
-|#6|45|11.11.2022|
-|#7|46|18.11.2022|
-|#8|47|25.11.2022|
-|#9|48|02.12.2022|
-|#10|49|09.12.2022|
+|#4|44|04.11.2022|
+|#5|45|11.11.2022|
+|#6|46|18.11.2022|
+|#7|47|25.11.2022|
+|#8|48|02.12.2022|
+|#9|49|09.12.2022|
+|#10|50|16.12.2022|
 
 
 
@@ -126,7 +127,7 @@ Lazer, David, Alex Pentland, Lada Adamic, Sinan Aral, Albert-László Barabási,
 [How to become a data scientist](https://www.mastersindatascience.org/careers/data-scientist/)
 
 
-adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
+Adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 
 
 ##### Optional Readings
@@ -221,20 +222,105 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 * Working with JSON-data
 
 
-##### Required readings
+##### Required Readings
+Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitative and Computational Methods in Social Science. Cambridge University Press, Cambridge, UK.
+
+##### Optional Readings
 
 
-##### Optional readings
+### Lab 
 
 
-### lab 
+[Twitter API Documentation](https://developer.twitter.com/en/docs/tutorials/getting-started-with-r-and-v2-of-the-twitter-api)
+[Danish MP's on twitter](https://twitter.com/i/lists/81497947?lang=da)
+
+
+Go through API-script
+Collect data from danish MP's (based on split document)
+
+
+## Lesson #5  - Network Analysis
+
+Analyze ties based on Lesson #4
+
+##### Focus
+
+
+##### Required Readings
+
+
+##### Optional Readings
+
+
+### Lab 
+
+
+[Guide to do network analysis in R](https://levelup.gitconnected.com/how-to-do-amazing-twitter-network-analysis-in-r-2c258537dd7d)
+
+
+## Lesson #6  - Webscraping in R
+
+
+##### Focus
+
+
+##### Required Readings
+
+
+##### Optional Readings
+
+
+### Lab 
+
+## Lesson #7  - Text as data: Who say's what?
+
+
+##### Focus
+
+
+##### Required Readings
+
+*Monroe, Burt L., Michael P. Colaresi, og Kevin M. Quinn (2008). “Fightin’ Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict”. Political Analysis 16, nr. 4: 372–403. https://doi.org/10.1093/pan/mpn018.*
+
+##### Optional Readings
+
+*Monroe et. al. (2008)'s dirichlet model applied by Bisgaard*:
+
+
+Bisgaard, Martin. “How Getting the Facts Right Can Fuel Partisan-Motivated Reasoning”. American Journal of Political Science 63, nr. 4 (2019): 824–39. https://doi.org/10.1111/ajps.12432.
+
+
+Bisgaard, Martin. “Replication Data for: How Getting the Facts Right Can Fuel Partisan Motivated Reasoning”. Harvard Dataverse, 22. november 2019. https://doi.org/10.7910/DVN/FTFJTV.
+
+
+### Lab 
+
+
+Apply dirichlet model on collected twitter data
+
+
+## Lesson #8  - Machine Learning 1
+
+
+##### Focus
+
+
+##### Required Readings
+
+Kleinberg, Jon, Jens Ludwig, Sendhil Mullainathan, og Ziad Obermeyer. “Prediction Policy Problems”. American Economic Review 105, nr. 5 (1. maj 2015): 491–95. https://doi.org/10.1257/aer.p20151023.
+
+Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable of Google Flu: Traps in Big Data Analysis”. Science 343, nr. 6176 (2014): 1203–5.
+
+
+##### Optional Readings
+
+
+### Lab 
 
 
 
+## Lesson #9  - Machine Learning 2
 
-## Lecture #5  - Network analysis
-
-Analyze ties based on lecture #4
 
 ##### Focus
 
@@ -248,76 +334,17 @@ Analyze ties based on lecture #4
 ### lab 
 
 
-## Lecture #6  - Webscraping in R
+## Lesson #10 - Machine Learning 3 & finale remarks
 
 
 ##### Focus
 
 
-##### Required readings
+##### Required Readings
 
 
-##### Optional readings
+##### Optional Readings
 
 
-### lab 
-
-## Lecture #7  - Text as data: Who say's what?
-
-
-##### Focus
-
-
-##### Required readings
-
-##### Optional readings
-
-
-### lab 
-
-
-## Lecture #8  - Machine Learning 1
-
-
-##### Focus
-
-
-##### Required readings
-
-
-##### Optional readings
-
-
-### lab 
-
-
-
-## Lecture #9  - Machine learning 2
-
-
-##### Focus
-
-
-##### Required readings
-
-
-##### Optional readings
-
-
-### lab 
-
-
-## Lecture #10 - Machine Learning 3 & final remarks
-
-
-##### Focus
-
-
-##### Required readings
-
-
-##### Optional readings
-
-
-### lab 
+### Lab 
 

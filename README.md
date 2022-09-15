@@ -218,12 +218,10 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 
 ##### Focus
-* Data collecting using an API
-* Working with JSON-data
 
 
 ##### Required Readings
-Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitative and Computational Methods in Social Science. Cambridge University Press, Cambridge, UK.
+
 
 ##### Optional Readings
 
@@ -231,17 +229,11 @@ Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitat
 ### Lab 
 
 
-[Twitter API Documentation](https://developer.twitter.com/en/docs/tutorials/getting-started-with-r-and-v2-of-the-twitter-api)
-[Danish MP's on twitter](https://twitter.com/i/lists/81497947?lang=da)
-
-
-Go through API-script
-Collect data from danish MP's (based on split document)
 
 
 ## Lesson #5  - Network Analysis
 
-Analyze ties based on Lesson #4
+
 
 ##### Focus
 
@@ -253,9 +245,6 @@ Analyze ties based on Lesson #4
 
 
 ### Lab 
-
-
-[Guide to do network analysis in R](https://levelup.gitconnected.com/how-to-do-amazing-twitter-network-analysis-in-r-2c258537dd7d)
 
 
 ## Lesson #6  - Webscraping in R
@@ -280,23 +269,12 @@ Analyze ties based on Lesson #4
 
 ##### Required Readings
 
-*Monroe, Burt L., Michael P. Colaresi, og Kevin M. Quinn (2008). “Fightin’ Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict”. Political Analysis 16, nr. 4: 372–403. https://doi.org/10.1093/pan/mpn018.*
 
 ##### Optional Readings
-
-*Monroe et. al. (2008)'s dirichlet model applied by Bisgaard*:
-
-
-Bisgaard, Martin. “How Getting the Facts Right Can Fuel Partisan-Motivated Reasoning”. American Journal of Political Science 63, nr. 4 (2019): 824–39. https://doi.org/10.1111/ajps.12432.
-
-
-Bisgaard, Martin. “Replication Data for: How Getting the Facts Right Can Fuel Partisan Motivated Reasoning”. Harvard Dataverse, 22. november 2019. https://doi.org/10.7910/DVN/FTFJTV.
 
 
 ### Lab 
 
-
-Apply dirichlet model on collected twitter data
 
 
 ## Lesson #8  - Machine Learning 1
@@ -307,9 +285,6 @@ Apply dirichlet model on collected twitter data
 
 ##### Required Readings
 
-Kleinberg, Jon, Jens Ludwig, Sendhil Mullainathan, og Ziad Obermeyer. “Prediction Policy Problems”. American Economic Review 105, nr. 5 (1. maj 2015): 491–95. https://doi.org/10.1257/aer.p20151023.
-
-Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable of Google Flu: Traps in Big Data Analysis”. Science 343, nr. 6176 (2014): 1203–5.
 
 
 ##### Optional Readings

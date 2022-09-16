@@ -23,7 +23,7 @@ Social Data Science
   - [Lesson #4  - Working with API's](#lesson-4----working-with-apis)
   - [Lesson #5  - Network Analysis](#lesson-5----network-analysis)
   - [Lesson #6  - Webscraping in R](#lesson-6----webscraping-in-r)
-  - [Lesson #7  - Text as data: Who say's what?](#lesson-7----text-as-data-who-says-what)
+  - [Lesson #7  - Text as data: Who says what and why?](#lesson-7----text-as-data-who-says-what-and-why)
   - [Lesson #8  - Machine Learning 1](#lesson-8----machine-learning-1)
   - [Lesson #9  - Machine Learning 2](#lesson-9----machine-learning-2)
   - [Lesson #10 - Machine Learning 3 & finale remarks](#lesson-10---machine-learning-3--finale-remarks)
@@ -148,7 +148,7 @@ Adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 
 [*R* Basics](https://bookdown.org/daniel_dauber_io/r4np_book/r-basics-the-very-fundamentals.html)
 
-[Lab#1 - Getting Started with R & Rstudio.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%231%20-%20Getting%20Started%20with%20R%20%26%20Rstudio.Rmd)
+[Lab#1 - Getting Started with R & Rstudio.Rmd](LabMaterial/Lab%231%20-%20Getting%20Started%20with%20R%20%26%20Rstudio.Rmd)
 
 ##### Focus 
 * Installing R & Rstudio
@@ -179,7 +179,7 @@ Adler (2012) *R in a nutshell*, chapter 4+5+6+7+9, 2nd edition
 Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAMMING LANGUAGES”
 
 ### Lab
-[Lab#2 - Programming Fundamentals.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%232%20-%20Programming%20Fundamentals.Rmd)
+[Lab#2 - Programming Fundamentals.Rmd](LabMaterial/Lab%232%20-%20Programming%20Fundamentals.Rmd)
 
 
 
@@ -190,7 +190,7 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 * Load & save data
 * Data Exploration
 * Wrangle (recode, relabel, transpose, data, subsetting, filtering)
-* Vizualisations with *gpplot2*
+* Basic visualization with *gpplot2*
 
 
 ##### Required Readings  
@@ -209,11 +209,11 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 ### Lab - Data Science Fundamentals
 
-[Lab#3 - Data Science fundamentals.Rmd](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
+[Lab#3 - Data Science fundamentals.Rmd](LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
 
-[wb_health_gdp.csv](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/data/wb_health_gdp.csv)
+[wb_health_gdp.csv](LabMaterial/data/wb_health_gdp.csv)
 
-[ppepe_semi.csv](https://raw.githubusercontent.com/schmokel/SocialDataScience/pages/LabMaterial/data/ppepe-master/ppepe_semi.csv)
+[ppepe_semi.csv](LabMaterial/data/ppepe-master/ppepe_semi.csv)
 
 
 ## Lesson #4  - Working with API's

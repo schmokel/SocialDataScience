@@ -179,8 +179,6 @@ Adler (2012) *R in a nutshell*, chapter 4+5+6+7+9, 2nd edition
 Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAMMING LANGUAGES”
 
 ### Lab
-[Lab#2 - Programming Fundamentals.Rmd](LabMaterial/Lab%232%20-%20Programming%20Fundamentals.Rmd)
-
 
 
 ## Lesson #3  - Data Science Fundamentals
@@ -209,21 +207,18 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 ### Lab - Data Science Fundamentals
 
-[Lab#3 - Data Science fundamentals.Rmd](LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
-
-[wb_health_gdp.csv](LabMaterial/data/wb_health_gdp.csv)
-
-[ppepe_semi.csv](LabMaterial/data/ppepe-master/ppepe_semi.csv)
 
 
 ## Lesson #4  - Working with API's
 
 
 ##### Focus
+* Data collecting using an API
+* Working with JSON-data
 
 
 ##### Required Readings
-
+Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitative and Computational Methods in Social Science. Cambridge University Press, Cambridge, UK.
 
 ##### Optional Readings
 

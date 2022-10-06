@@ -10,68 +10,8 @@ output: html_document
 
 You can write your own functions in order to make repetitive operations using a single command. Let's start by defining your function "my_function" and the input parameter(s) that the user will feed to the function. Afterwards you will define the operation that you desire to program in the body of the function within curly braces ({}). Finally, you need to assign the result (or output) of your function in the return statement.
 
-```{r, include = FALSE}
-my_function <- function(input) {
-# perform action and produce output
-return(output) # return output value
-}
-```
-
-Now let's see this process with an example. We are going to define a function `area_of_rectangle` that calculates the [area of a rectangle](https://www.wikihow.com/Calculate-the-Area-of-a-Rectangle)
-```{r}
-area_of_rectangle <- function(length, width) {
-  area <- length * width
-  return(area)
-}
-```
-
-We define `area_of_rectangle` by assigning it to the output of `function`.
-The list of argument names are contained within parentheses.
-Next, the body of the function, the statements that are executed when it runs, is contained within curly braces (`{}`).
-The statements in the body are indented by two spaces, which makes the code easier to read but does not affect how the code operates.
-
-When we call the function, the values we pass to it are assigned to those variables so that we can use them inside the function.
-Inside the function, we use a return statement to send a result back to whoever asked for it.
-
- ## Automatic Returns
-
- In R, it is not necessary to include the return statement.
- R automatically returns whichever variable is on the last line of the body
- of the function. While in the learning phase, we will explicitly define the
- return statement.
-
-Let's try running our function.
-Calling our own function is no different from calling any other function:
-
-```{r}
-
-area_of_rectangle(10, 10)
-# and you can assign it to an object/variable
-area <- area_of_rectangle(10, 50)
-area
-```
-
-We've successfully called the function that we defined, and we have access to the value that we returned.
 
 
-Now that we've seen how to calculate the area of a rectangle it is easy to calculate the area of a right triangle. We could write out the formula, but we don't need to.
-Instead, we can use the function we have already created:
-
-```{r}
-area_of_triangle <- function(length, width) {
-  area <- area_of_rectangle(length, width)/2
-
-  return(area)
-}
-# 
-area_of_triangle(10,10)
-```
-
-This is our first taste of how larger programs are built: we define basic
-operations, then combine them in ever-larger chunks to get the effect we want.
-Real-life functions will usually be larger than the ones shown here--typically half a dozen to a few dozen lines--but they shouldn't ever be much longer than that, or the next person who reads it won't be able to understand what's going on.
-
-#Functions
 **1) Make a function that prints the string "The result is:"**
 ```{r}
 
@@ -88,13 +28,41 @@ example_vector <- c(1,2,45645,6543,234,989)
 ```
 
 
-**3) Construct a function that calculates the area of multiple triangles (from 2 to infinity). (hint: vectors)**
+**3) Make a function named "area_of_rectangle" that calculates the area of a rectangle"**
+```{r}
+
+area_of_rectangle(10, 10)
+# and you can assign it to an object/variable
+area <- area_of_rectangle(10, 50)
+area
+```
+
+We've successfully called the function that we defined, and we have access to the value that we returned.
+
+
+
+**4) Now that we've seen how to calculate the area of a rectangle it is easy to calculate the area of a right **
+**triangle. We could write out the formula, but we don't need to.**
+**Instead, use the function we have already created: **
+```{r}
+
+area_of_triangle(10,10)
+```
+
+
+**5) Construct a function that calculates the area of multiple triangles (from 2 to infinity). (hint: vectors)**
 ```{r}
 
 
 
 #Your code here
 ```
+
+This is our first taste of how larger programs are built: we define basic
+operations, then combine them in ever-larger chunks to get the effect we want.
+Real-life functions will usually be larger than the ones shown here--typically half a dozen to a few dozen lines--but they shouldn't ever be much longer than that, or the next person who reads it won't be able to understand what's going on.
+
+
 # Control flow & Iterations
 
 R is a programming language after all, how do we check for conditions or go through iterations?
@@ -145,18 +113,15 @@ sapply(mtcars, mean)
 ```
 
 
-**Note:** control flow is very inefficient in R, we will learn faster methods for large datasets later in the course
 
-Your turn: 
-
-**4) Iterate over the numbers from 1 to 50 and print the ones divisible by 7.**
+**6) Iterate over the numbers from 1 to 50 and print the ones divisible by 7.**
 ```{r}
 #Your code here
 ```
 
 
 
-**5) mtcars is a built-in dataset in R. Print every column name of the dataset using a for loop**
+**7) mtcars is a built-in dataset in R. Print every column name of the dataset using a for loop**
 ```{r}
 #The names of the columns in 'mtcars'
 names(mtcars)
@@ -164,14 +129,58 @@ names(mtcars)
 #Your code here
 ```
 
-**6)  Print the type (e.g. character, numeric, logical) of every column in mtcars using sapply**
+**8)  Print the type (e.g. character, numeric, logical) of every column in mtcars using sapply**
 ```{r}
 
 #Your code here
 ```
 
-**7)  calculate the mean of every column in mtcars using sapply and assign it to a new object Also, assign the corresponding column names to the means in the new object**
+**9)  calculate the mean of every column in mtcars using sapply and assign it to a new object Also, assign the corresponding column names to the means in the new object**
 ```{r}
 
 #Your code here
 ```
+
+
+
+
+
+
+### Putting it all together!
+
+Now you have learned how loops, functions and control flows works. Now it is your turn to put together the building blocks and use them to.... draw figures!
+Use the library "TurtleGraphics" to draw the figures. -> use 'help' or search the web for the documentation
+
+Programming is embedding logic from the real world into code. If you can describe what you want to happen, you can program it.Also, remember the DRY principle
+
+
+**10) Make a function that draws a 'house'**
+```{r}
+
+#Your code here
+```
+
+**11) Make a function that draws X amount of circles next to each other**
+
+```{r}
+
+#Your code here
+```
+
+**12) Make a function that draws X amount of squares next to each other. The size of the squares should be dynamic (that is adjustable, when calling the function)**
+
+```{r}
+
+#Your code here
+```
+
+
+**13) Make a function which let's you choose whether you wanna draw a house, squares or a circle.**
+
+```{r}
+
+#Your code here
+```
+
+
+

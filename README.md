@@ -27,6 +27,7 @@ Social Data Science
   - [Lesson #8  - Machine Learning 1](#lesson-8----machine-learning-1)
   - [Lesson #9  - Machine Learning 2](#lesson-9----machine-learning-2)
   - [Lesson #10 - Machine Learning 3 & finale remarks](#lesson-10---machine-learning-3--finale-remarks)
+  - [Bonus packs](#bonus-packs)
 
 
 
@@ -179,6 +180,8 @@ Adler (2012) *R in a nutshell*, chapter 4+5+6+7+9, 2nd edition
 Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAMMING LANGUAGES”
 
 ### Lab
+[Lab#2 - Programming Fundamentals.Rmd](LabMaterial/Lab%232%20-%20Programming%20Fundamentals.Rmd)
+
 
 
 ## Lesson #3  - Data Science Fundamentals
@@ -319,4 +322,8 @@ Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitat
 
 
 ### Lab 
+
+
+## Bonus packs
+[Bonus Pack #1 - Version Control with git & github!](LabMaterial/Bonus_pack#1.pdf)
 

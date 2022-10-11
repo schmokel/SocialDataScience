@@ -207,9 +207,22 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 ##### Optional Readings
 [ggplot2 - How to make any plot in ggplot2](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
+[R code conventions and style guide](http://adv-r.had.co.nz/Style.html)
 
 ### Lab - Data Science Fundamentals
+[Lab#3 - Data Science fundamentals.Rmd](LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
 
+[wb_health_gdp.csv](LabMaterial/data/wb_health_gdp.csv)
+
+[ppepe_semi.csv](LabMaterial/data/ppepe-master/ppepe_semi.csv)
+
+[iris.json](LabMaterial/data/iris.json)
+
+[Validation figure assignment 4](LabMaterial/Validation_figure_assignment4_lab3)
+
+[Validation figure assignment 5](LabMaterial/Validation_figure_assignment5_lab3)
+
+[Validation figure assignment 6](LabMaterial/Validation_figure_assignment6_lab3)
 
 
 ## Lesson #4  - Working with API's

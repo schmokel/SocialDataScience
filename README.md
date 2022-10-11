@@ -98,6 +98,7 @@ Data Science (and progamming) has a wonderful open-source culture, however two o
 You can find them online or in *academic books*
 
 * Adler(2012) *R in a nutshell* 2nd edition ISBN: 9781449312084
+* 
 * Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, ISBN: 9781071614174
 
 
@@ -160,7 +161,6 @@ Adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 
 
 
-
 ## Lesson #2  - Programming Fundamentals
 
 
@@ -189,9 +189,8 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 ##### Focus 
 * Data structures
 * Load & save data
-* Data Exploration
-* Wrangle (recode, relabel, transpose, data, subsetting, filtering)
-* Basic visualization with *gpplot2*
+* Data Exploration & Wrangling (recode, relabel, transpose, subsetting, filtering)
+* Visualization with *gpplot2*
 
 
 ##### Required Readings  
@@ -207,6 +206,7 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 ##### Optional Readings
 [ggplot2 - How to make any plot in ggplot2](http://r-statistics.co/ggplot2-Tutorial-With-R.html)
+
 [R code conventions and style guide](http://adv-r.had.co.nz/Style.html)
 
 ### Lab - Data Science Fundamentals

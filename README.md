@@ -218,11 +218,11 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 [iris.json](LabMaterial/data/iris.json)
 
-[Validation figure assignment 4](LabMaterial/Validation_figure_assignment4_lab3)
+[Validation figure assignment 4](LabMaterial/Validation_figure_assignment4_lab3.png)
 
-[Validation figure assignment 5](LabMaterial/Validation_figure_assignment5_lab3)
+[Validation figure assignment 5](LabMaterial/Validation_figure_assignment5_lab3.png)
 
-[Validation figure assignment 6](LabMaterial/Validation_figure_assignment6_lab3)
+[Validation figure assignment 6](LabMaterial/Validation_figure_assignment6_lab3.png)
 
 
 ## Lesson #4  - Working with API's

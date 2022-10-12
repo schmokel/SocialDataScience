@@ -210,7 +210,6 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 [R code conventions and style guide](http://adv-r.had.co.nz/Style.html)
 
 ### Lab - Data Science Fundamentals
-[Lab#3 - Data Science fundamentals.Rmd](LabMaterial/Lab%233%20-%20Data%20Science%20fundamentals.Rmd)
 
 [wb_health_gdp.csv](LabMaterial/data/wb_health_gdp.csv)
 

@@ -193,7 +193,7 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 * Visualization with *gpplot2*
 
 
-[Slides](LabMaterial/slides/Lesson/Lesson%20%233.pptx)
+[Slides](LabMaterial/slides/Lesson%20%233.pptx)
 
 
 ##### Required Readings  

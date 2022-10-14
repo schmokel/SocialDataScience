@@ -211,6 +211,8 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 ### Lab - Data Science Fundamentals
 
+[Lab#3 - Data Science fundamentals.Rmd](LabMaterial/Lab%232%20-%20Data%20Science%20fundamentals.Rmd)
+
 [wb_health_gdp.csv](LabMaterial/data/wb_health_gdp.csv)
 
 [ppepe_semi.csv](LabMaterial/data/ppepe-master/ppepe_semi.csv)

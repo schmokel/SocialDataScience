@@ -193,6 +193,9 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 * Visualization with *gpplot2*
 
 
+[Slides](LabMaterial/slides/Lesson/Lesson%20%233.pptx)
+
+
 ##### Required Readings  
 [R for Data Science - chapters "Explore" & "Wrangle"](https://r4ds.had.co.nz/)
 

@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-** load/install 'dplyr', 'tidyr' & 'ggplot2'
+** load/install 'dplyr' & 'ggplot2' or 'tidyverse'
 ```{r}
 
 
@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # Reading data
 
-Data is essential for our tasks.  A table can be easily imported from local files as a csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use a survey result stored in a .csv file:
+Data is essential for our tasks.  A table can be easily imported from local files as a csv file via read.csv(). Or you may try other functions like read.table() and adjust to different data formats. In this exercise, we use data stored in a .csv file:
 **1 Load the dataset 'ppepe_semi.csv' and print the first 10 rows**
 
 ```{r}
@@ -26,42 +26,40 @@ head(df, n=10)
 ```
 WOOPS! Doesn't look right?
 
-The read.csv and read.table functions have some important parameters:
-
-- header (TRUE/FALSE) whether the first line of the file contains the names of the columns
-- sep: character that separates columns in the file
-- quote: character that defines strings in the file, to prevent strings to be divided in two columns
-- stringsAsFactors (TRUE/FALSE) whether strings should be converted to categorical factors
+The read.csv and read.table functions have some important parameters including 'header', 'sep', 'quote' and 'stringAsFactors'. I think you should check those out :O
 
 
-**2 Load the data again so that it looks right. (Also remember to check the types of the columns) To convert vote_share to numeric, use "as.numeric(sub(",", ".", df$vote_share, fixed = TRUE))"** 
+**2 Load the data again so it looks right. (Also remember to check the types of the columns)** 
+**A little help: To convert vote_share to numeric, run : "df_name$vote_share <- as.numeric(sub(",", ".", df_name$vote_share, fixed = TRUE))" ** 
 
 ```{r}
 
 
-
+df$vote_share <- as.numeric(sub(",", ".", df$vote_share, fixed = TRUE))
 ```
 
 
 # Data frames
 
-Data frames are a general way to store multimodal data in R. They are composed of rows with one value in each column.
+Data frames are a general way to store mixed-type data in R. They are composed of rows with one value in each column.
 ```{r}
 names(df)
 head(df)
 ```
 
-You can access individual rows:
+You can access individual rows and columns by position/index:
 ```{r}
 df[2,]
+df[,3]
+
 ```
 
-And individual values by position:
+And individual values by position/index:
 ```{r}
 df[3,4]
 ```
 
-Columns in dataframes are accessed with the "$" operator:
+Columns in data frames are accessed with the "$" operator:
 ```{r}
 df$vote_share
 ```
@@ -77,38 +75,55 @@ df$sequence <- seq(1,nrow(df))
 head(df, n=3)
 names(df)
 ```
-**3 filter denmark's observations into a seperate df. Use Dplyr and the '%>%' pipe operator**
+
+Remember the pipe operator which can be translated into "and then"
+```{r}
+df <- df %>% 
+  mutate(seats_divided_by_two = seats/2) %>% 
+  select(-seats_divided_by_two)
+  
+names(df)  
+```
+**3 filter Denmark's observations into a seperate df. Use Dplyr/tidyverse and the '%>%' pipe operator**
 ```{r}
 #Your code here
 head(df_dk)
 ```
 
-**4 Make a lineplot using ggplot2 showing right and left wings vote shares over the years  in denmark** 
-```{r}
-
-
-```
-**5 Now, make a lineplot using ggplot2 showing showing the right and left wings vote share seperately/group-wise** 
+**4 Make a lineplot using ggplot2 showing (wings) vote share over the years in Denmark** 
 ```{r}
 
 
 ```
 
-**6 What is the mean vote share of the left wing in France & Germany in year 2019?** 
+**5 Make a lineplot using ggplot2 showing (wings) vote share over the years for the whole population** 
 ```{r}
 
 
 ```
 
-**7 Load the data 'load the data wb_health_gdp.csv (use skip = 4)**
+**6 Building on 5, make a lineplot using ggplot2 showing the right and left wings vote share group-wise for the whole dataset. Also, make meaningful axis labels and a title**
 ```{r}
 
 
 ```
 
-**8 Describe the data. Is the data tidy? Why/why not?**
 
-**9 Remove the year(s) with no data, Transpose the columns to long data format with year as key and value as health_pct. Also, type cast columns with incorrect type (Should year be a string e.g.?). Remove years with no health_pct data. Relabel Country.Name to Country**
+**7 What is the mean vote share of the left wing in France & Germany in year 2019?** 
+```{r}
+
+
+```
+
+**8 Load the data 'wb_health_gdp.csv**
+```{r}
+
+
+```
+
+**9 Describe the data. Is the data tidy? Why/why not?**
+
+**10 Remove the year(s) with no data, Transpose the columns to long data format with year as key and value as health_pct. Also, type cast columns with incorrect type (Should year be a string e.g.?). Remove years with no health_pct data. Relabel Country.Name to Country**
  
 
 ```{r}
@@ -117,28 +132,45 @@ head(df_dk)
 
 ```
 
-**10 describe inner join, left join and full join**
+**11 describe inner join, left join and full join**
 
-**11 join wb_tidy and df by country and year - which join are you using and why? Call the new df ''df_tidy_joined'**
+**12 join wb_tidy and df by country and year - which join are you using and why? Call the new df ''df_tidy_joined'**
+**You should end up with127 rows and 16 variables**
 ```{r}
 
 
 ```
 
 
-**12 Save 'df_tidy_joined' as a file in the .Rdata or .RDS format for later use. **
+**13 Save 'df_tidy_joined' as a file in the .Rdata or .RDS format for later use. **
+```{r}
+
+
+```
+
+**14 Import 'df_tidy_joined' you just saved in 13 (.RDS or .Rdata)**
+```{r}
+
+
+```
+
+**15 What is the advantage of using .RDS instead of .csv? **
 ```{r}
 
 
 ```
 
 
-**13 What is the advantage of using .RDS instead of .csv? **
+
+## JSON
+Data Frames are what we call tabular data format. Tabular data is flat. Another format is JSON-format which is very common in data science (and computer science. It is not always possible to flatten the data, as the data per default, is nested. You are gonna work with json-data very soon.
+
+
+**16 Load the iris-dataset using the jsonlite-package**
 ```{r}
 
-
+library(jsonlite)
 ```
-
 
 
 All right! That was all for now this time. From next lesson we will stop working in markdown/notebooks and instead work in real scripts. Also, instead of closed small questions you will get bigger open questions which you yourself need to break down into solveable pieces (based on what you have already learned and are learning in the current lesson). 

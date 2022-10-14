@@ -170,6 +170,8 @@ Adler (2012) *R in a nutshell* chap. 1 (Find it online or in *academic books*)
 * Functions 
 * Iterations
 
+[Slides](LabMaterial/slides/Lesson%20%232.pptx)
+
 
 ##### Required Readings
 Adler (2012) *R in a nutshell*, chapter 4+5+6+7+9, 2nd edition

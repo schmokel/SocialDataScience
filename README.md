@@ -43,13 +43,14 @@ Social Data Science
 |#3|41|14.10.2022|
 |Autumn Holidays - No Lesson|42|21.10.2022|
 |Annual Celebration - No lesson|43|28.10.2022|
-|#4|44|04.11.2022|
-|#5|45|11.11.2022|
-|#6|46|18.11.2022|
-|#7|47|25.11.2022|
-|#8|48|02.12.2022|
-|#9|49|09.12.2022|
-|#10|50|16.12.2022|
+|Lesson cancelled|44|04.11.2022|
+|#4|45|11.11.2022|
+|#5|46|18.11.2022|
+|#6|47|25.11.2022|
+|#7|48|02.12.2022|
+|#8|49|09.12.2022|
+|#9|50|16.12.2022|
+|#10|TBD|TBD|
 
 
 
@@ -231,6 +232,7 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 [Validation figure assignment 6](LabMaterial/Validation_figure_assignment6_lab3.png)
 
 
+
 ## Lesson #4  - Working with API's
 
 
@@ -240,19 +242,31 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 
 
 ##### Required Readings
-Steinert-Threlkeld, Z. C. (2018). Twitter as Data. Cambridge Elements: Quantitative and Computational Methods in Social Science. Cambridge University Press, Cambridge, UK.
+
+[An introduction to API's](https://medium.com/@rwilliams_bv/apis-d389aa68104f)
+
+[An illustrated introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9)
+
+
+[Sign up for a developer acoount BEFORE the lesson! (it may take some days to be verified)](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+
+Do step 1 in the above guide. It is very important that you answer thoroughly on the questions.
+
+
 
 ##### Optional Readings
 
 
 ### Lab 
 
+[Twitter API Documentation](https://developer.twitter.com/en/docs/tutorials/getting-started-with-r-and-v2-of-the-twitter-api)
 
+[Danish MP's on twitter](https://twitter.com/i/lists/81497947?lang=da)
 
 
 ## Lesson #5  - Network Analysis
 
-
+Analyze ties based on Lesson #4
 
 ##### Focus
 

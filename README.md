@@ -248,11 +248,12 @@ Friedman (1992). “FROM BABBAGE TO BABEL AND BEYOND: A BRIEF HISTORY OF PROGRAM
 [An illustrated introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9)
 
 
-[Sign up for a developer acoount BEFORE the lesson! (it may take some days to be verified)](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+[Twitter: Sign up for a developer acoount BEFORE the lesson! (it may take some days to be verified)](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
 
 Do step 1 in the above guide. It is very important that you answer thoroughly on the questions.
 
-
+[Facebook: Sign up for a developer acoount BEFORE the lesson! (takes 1-2 days to get verified)](https://www.facebook.com/ads/library/api/?source=archive-landing-page)
+Do step 1 + 2 for Meta ad Library
 
 ##### Optional Readings
 

@@ -46,11 +46,11 @@ Social Data Science
 |Lesson cancelled|44|04.11.2022|
 |#4|45|11.11.2022|
 |#5|46|18.11.2022|
-|#6|47|25.11.2022|
-|#7|48|02.12.2022|
-|#8|49|09.12.2022|
-|#9|50|16.12.2022|
-|#10|TBD|TBD|
+|#6|47|25.11.2022 8-11|
+|#7|47|25.11.2022 11-14|
+|#8|48|02.12.2022|
+|#9|49|09.12.2022|
+|#10|50|16.12.2022|
 
 
 
@@ -261,12 +261,13 @@ Do step 1 in the above guide. It is very important that you answer thoroughly on
 
 [Twitter API Documentation](https://developer.twitter.com/en/docs/tutorials/getting-started-with-r-and-v2-of-the-twitter-api)
 
+[rtweet package](https://github.com/ropensci/rtweet)
+
 [Danish MP's on twitter](https://twitter.com/i/lists/81497947?lang=da)
 
 
 ## Lesson #5  - Network Analysis
 
-Analyze ties based on Lesson #4
 
 ##### Focus
 

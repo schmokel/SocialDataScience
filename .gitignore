@@ -2,6 +2,7 @@
 _site
 to_do.txt
 README_ignore.md
+.vscode
 
 # History files
 .Rhistory

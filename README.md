@@ -256,7 +256,7 @@ Do step 1 in the above guide. It is very important that you answer thoroughly on
 Do step 1 + 2 for Meta ad Library
 
 ##### Optional Readings
-
+[rtweet: Collecting and analyzing Twitter data](https://joss.theoj.org/papers/10.21105/joss.01829.pdf)
 
 ### Lab 
 
@@ -265,6 +265,8 @@ Do step 1 + 2 for Meta ad Library
 [rtweet package](https://github.com/ropensci/rtweet)
 
 [radlibrary](https://github.com/facebookresearch/Radlibrary)
+
+[tidyverse cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 
 

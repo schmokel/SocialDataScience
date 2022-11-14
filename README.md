@@ -275,7 +275,7 @@ Do step 1 + 2 for Meta ad Library
 
 
 ##### Focus
-* Analyze ties based on Twitter Data #4
+Analyze ties based on Twitter Data #4
 
 ##### Required Readings
 
@@ -291,6 +291,8 @@ Do step 1 + 2 for Meta ad Library
 ##### Optional Readings
 
 The Louvain method for community detection
+
+
 [Blondel et. al. (2008) Fast unfolding of communities in large networks](https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008/pdf)
 
 ### Lab 

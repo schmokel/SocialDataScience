@@ -273,14 +273,25 @@ Do step 1 + 2 for Meta ad Library
 ## Lesson #5  - Network Analysis
 
 
-##### Focus
 
+##### Focus
+* Analyze ties based on Twitter Data #4
 
 ##### Required Readings
+
+[Scott (2012) What is Social Network Analysis?: Chapter 3. Key concepts and measures](https://www.bloomsburycollections.com/book/what-is-social-network-analysis/ch3-key-concepts-and-measures)
+
+
+[Narrating Networks](https://www-tandfonline-com.proxy1-bib.sdu.dk/doi/full/10.1080/21670811.2016.1186497)
+
+
+[Centrality measures](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)
 
 
 ##### Optional Readings
 
+The Louvain method for community detection
+[Blondel et. al. (2008) Fast unfolding of communities in large networks](https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008/pdf)
 
 ### Lab 
 

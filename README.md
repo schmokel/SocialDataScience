@@ -275,14 +275,14 @@ Do step 1 + 2 for Meta ad Library
 
 
 ##### Focus
-Analyze ties based on Twitter Data #4
+Analyze ties based on Twitter Data from #4
 
 ##### Required Readings
 
 [Scott (2012) What is Social Network Analysis?: Chapter 3. Key concepts and measures](https://www.bloomsburycollections.com/book/what-is-social-network-analysis/ch3-key-concepts-and-measures)
 
 
-[Narrating Networks](https://www-tandfonline-com.proxy1-bib.sdu.dk/doi/full/10.1080/21670811.2016.1186497)
+[Bounegru (2016) Narrating Networks](https://www-tandfonline-com.proxy1-bib.sdu.dk/doi/full/10.1080/21670811.2016.1186497)
 
 
 [Centrality measures](https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/)
@@ -295,8 +295,42 @@ The Louvain method for community detection
 
 [Blondel et. al. (2008) Fast unfolding of communities in large networks](https://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008/pdf)
 
+Fowler, James H. Connecting the Congress: A study of cosponsorship networks.
+Political Analysis. (2006): 456-487.
+
+
+[Kim, In Song and Dmitriy Kunisky. Mapping Political Communities: A Statistical Analysis of Lobbying Networks in Legislative Politics." Political Analysis (2020)](http://web.mit.edu/insong/www/pdf/network.pdf)
+
+
+[Chakraborty (2018) Graph theory on Social Media](https://www.researchgate.net/profile/Asoke-Nath-4/publication/328954103_Application_of_Graph_Theory_in_Social_Media/links/5beceaea299bf1124fd32f59/Application-of-Graph-Theory-in-Social-Media.pdf)
+
+
 ### Lab 
 
+
+[rtweet__timeline_demo.R](LabMaterial/rtweet__timeline_demo.R)
+
+[network_analysis.R](LabMaterial/network_analysis.R)
+
+[By script is based on this boiler plate](https://rpubs.com/TeraPutera/social_network_analysis)
+
+[ggraph][(https://igraph.org/r/)]
+
+[ggraph layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
+
+
+[ggraph for common problems](https://www.r-bloggers.com/2020/03/ggraph-tricks-for-common-problems/)
+
+
+[Calculating centrality measures in R](https://www.r-bloggers.com/2018/12/network-centrality-in-r-an-introduction/)
+
+[More on centrality measureS](https://builtin.com/data-science/social-network-analysis)
+
+
+[Edge types](https://www.ebi.ac.uk/training/online/courses/network-analysis-of-protein-interaction-data-an-introduction/introduction-to-graph-theory/graph-theory-graph-types-and-edge-properties/)
+
+
+[Advanced: Network Analysis using Gephi](https://gephi.org/)
 
 ## Lesson #6  - Webscraping in R
 

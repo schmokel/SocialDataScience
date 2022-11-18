@@ -13,11 +13,12 @@ members <- lists_members(list_id = "967855228488908800")
 
 tweets <- rtweet::get_timeline(
   user = members$screen_name,
-  n = 500)
+  n = 5)
 
 
 users <- rtweet::users_data(tweets)
 
-data <- left_join(data, users, by = c("id_str"))
+data <- cbind(tweets, users_data(tweets), id_str = users_data(tweets)[, "id_str"])
+
 
 

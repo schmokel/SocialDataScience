@@ -312,9 +312,12 @@ Political Analysis. (2006): 456-487.
 
 [network_analysis.R](LabMaterial/network_analysis.R)
 
-[By script is based on this boiler plate](https://rpubs.com/TeraPutera/social_network_analysis)
+
+[network_analysis.R is based on this boiler plate](https://rpubs.com/TeraPutera/social_network_analysis)
+
 
 [ggraph][(https://igraph.org/r/)]
+
 
 [ggraph layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
 

@@ -342,27 +342,49 @@ Political Analysis. (2006): 456-487.
 
 
 ##### Required Readings
+[Marres, Noortje, and Esther Weltevrede. 2013. “Scraping the Social? Issues in Live Social Research.” Journal of Cultural Economy 6 (3): 313–35](https://doi.org/10.1080/17530350.2013.772070)
 
+[Pittard, S. (2022) Web Scraping with R chapter 1 + 2](https://steviep42.github.io/webscraping/book/)
+
+[HTML vs CSS - a brief comparision](https://www.codingdojo.com/blog/html-vs-css-inforgraphic)
 
 ##### Optional Readings
-
+[Pittard, S. (2022) Web Scraping with R chapter 3](https://steviep42.github.io/webscraping/book/)
 
 ### Lab 
 
-## Lesson #7  - Text as data: Who say's what?
+[Web scraping in R using rvest](https://www.dataquest.io/blog/web-scraping-in-r-rvest/)
+
+[rvest](https://posit.co/blog/rvest-easy-web-scraping-with-r/)
+
+[If you are done scraping, do sentiment analysis on your data](https://steviep42.github.io/webscraping/book/bagofwords.html)
+
+## Lesson #7  - Text as data: Who says what and why?
 
 
 ##### Focus
 
 
 ##### Required Readings
+[An overview of NLP](https://medium.com/@amitrani/an-overview-of-nlp-fe597ed7e8b6)
 
+[Silge & Robinson, Text Mining with R: The tidy text format (chapter 1)](https://www.tidytextmining.com/index.html)
+
+[Monroe, Burt L., Michael P. Colaresi, og Kevin M. Quinn (2008). “Fightin’ Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict”. Political Analysis 16, nr. 4: 372–403](https://doi.org/10.1093/pan/mpn018.*)
+
+
+*Monroe et. al. (2008)'s dirichlet model applied by Bisgaard*:
+Read appendix D from this paper
+[Bisgaard, Martin. “How Getting the Facts Right Can Fuel Partisan-Motivated Reasoning”. American Journal of Political Science 63, nr. 4 (2019): 824–39](https://doi.org/10.1111/ajps.12432)
 
 ##### Optional Readings
 
+Data and script for Bisgaard
 
-### Lab 
+[Bisgaard, Martin. “Replication Data for: How Getting the Facts Right Can Fuel Partisan Motivated Reasoning”. Harvard Dataverse, 22. november 2019](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FTFJTV)
 
+
+### Lab
 
 
 ## Lesson #8  - Machine Learning 1

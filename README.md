@@ -22,7 +22,7 @@ Social Data Science
   - [Lesson #3  - Data Science Fundamentals](#lesson-3----data-science-fundamentals)
   - [Lesson #4  - Working with API's](#lesson-4----working-with-apis)
   - [Lesson #5  - Network Analysis](#lesson-5----network-analysis)
-  - [Lesson #6  - Webscraping in R](#lesson-6----webscraping-in-r)
+  - [Lesson #6  - Web scraping in R](#lesson-6----web-scraping-in-r)
   - [Lesson #7  - Text as data: Who says what and why?](#lesson-7----text-as-data-who-says-what-and-why)
   - [Lesson #8  - Machine Learning 1](#lesson-8----machine-learning-1)
   - [Lesson #9  - Machine Learning 2](#lesson-9----machine-learning-2)
@@ -335,7 +335,7 @@ Political Analysis. (2006): 456-487.
 
 [Advanced: Network Analysis using Gephi](https://gephi.org/)
 
-## Lesson #6  - Webscraping in R
+## Lesson #6  - Web scraping in R
 
 
 ##### Focus
@@ -353,9 +353,11 @@ Political Analysis. (2006): 456-487.
 
 ### Lab 
 
-[Web scraping in R using rvest](https://www.dataquest.io/blog/web-scraping-in-r-rvest/)
+[rvest documentation](https://rvest.tidyverse.org/)
 
-[rvest](https://posit.co/blog/rvest-easy-web-scraping-with-r/)
+[Rvest example #1: Web scraping in R using rvest](https://www.dataquest.io/blog/web-scraping-in-r-rvest/)
+
+[Rvest example #2](https://posit.co/blog/rvest-easy-web-scraping-with-r/)
 
 [If you are done scraping, do sentiment analysis on your data](https://steviep42.github.io/webscraping/book/bagofwords.html)
 

@@ -340,6 +340,9 @@ Political Analysis. (2006): 456-487.
 
 ##### Focus
 
+* The structure of the web
+* 
+* How to collect and analyze unstructured data from the web
 
 ##### Required Readings
 [Marres, Noortje, and Esther Weltevrede. 2013. “Scraping the Social? Issues in Live Social Research.” Journal of Cultural Economy 6 (3): 313–35](https://doi.org/10.1080/17530350.2013.772070)
@@ -366,11 +369,16 @@ Political Analysis. (2006): 456-487.
 
 ##### Focus
 
+* Text as (numerical) data
+* 
+* Analyze text using a dirichlet model with bayesian shrinkage
+* 
+* Interpret the results
 
 ##### Required Readings
 [An overview of NLP](https://medium.com/@amitrani/an-overview-of-nlp-fe597ed7e8b6)
 
-[Silge & Robinson, Text Mining with R: The tidy text format (chapter 1)](https://www.tidytextmining.com/index.html)
+[Silge & Robinson, Text Mining with R: The tidy text format (chapter 1 + 5)](https://www.tidytextmining.com/index.html)
 
 [Monroe, Burt L., Michael P. Colaresi, og Kevin M. Quinn (2008). “Fightin’ Words: Lexical Feature Selection and Evaluation for Identifying the Content of Political Conflict”. Political Analysis 16, nr. 4: 372–403](https://doi.org/10.1093/pan/mpn018.*)
 

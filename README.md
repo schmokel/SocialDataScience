@@ -395,7 +395,9 @@ Data and script for Bisgaard
 
 
 ### Lab
+[the quanteda package (for text data preprocessing)](https://quanteda.io/)
 
+[Dirichlet_bayesian_shrinkage_boilerplate.R](LabMaterial/Dirichlet_bayesian_shrinkage_boilerplate.R)
 
 ## Lesson #8  - Machine Learning 1
 

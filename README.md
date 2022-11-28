@@ -15,9 +15,9 @@ Social Data Science
   - [Semester Plan](#semester-plan)
   - [Course Description](#course-description)
   - [Course Format](#course-format)
-  - [Outcome - Knowledge, skills & Competences](#outcome---knowledge-skills--competences)
+  - [Outcome - Knowledge, skills \& Competences](#outcome---knowledge-skills--competences)
   - [Literature](#literature)
-  - [Lesson #1  - Introduction to the course & Data Science as a field](#lesson-1----introduction-to-the-course--data-science-as-a-field)
+  - [Lesson #1  - Introduction to the course \& Data Science as a field](#lesson-1----introduction-to-the-course--data-science-as-a-field)
   - [Lesson #2  - Programming Fundamentals](#lesson-2----programming-fundamentals)
   - [Lesson #3  - Data Science Fundamentals](#lesson-3----data-science-fundamentals)
   - [Lesson #4  - Working with API's](#lesson-4----working-with-apis)
@@ -26,7 +26,7 @@ Social Data Science
   - [Lesson #7  - Text as data: Who says what and why?](#lesson-7----text-as-data-who-says-what-and-why)
   - [Lesson #8  - Machine Learning 1](#lesson-8----machine-learning-1)
   - [Lesson #9  - Machine Learning 2](#lesson-9----machine-learning-2)
-  - [Lesson #10 - Machine Learning 3 & finale remarks](#lesson-10---machine-learning-3--finale-remarks)
+  - [Lesson #10 - Machine Learning 3 \& finale remarks](#lesson-10---machine-learning-3--finale-remarks)
   - [Bonus packs](#bonus-packs)
 
 
@@ -99,7 +99,8 @@ Data Science (and progamming) has a wonderful open-source culture, however two o
 You can find them online or in *academic books*
 
 * Adler(2012) *R in a nutshell* 2nd edition ISBN: 9781449312084
-* 
+  
+  
 * Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, ISBN: 9781071614174
 
 
@@ -342,7 +343,7 @@ Political Analysis. (2006): 456-487.
 
 * The structure of the web
 * 
-* How to collect and analyze unstructured data from the web
+* How to collect unstructured data from the web
 
 ##### Required Readings
 [Marres, Noortje, and Esther Weltevrede. 2013. “Scraping the Social? Issues in Live Social Research.” Journal of Cultural Economy 6 (3): 313–35](https://doi.org/10.1080/17530350.2013.772070)
@@ -404,9 +405,22 @@ Data and script for Bisgaard
 
 ##### Focus
 
+* What is Machine Learning?
+* Estimation vs prediction
+* Measuring model performance
+
 
 ##### Required Readings
 
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, pp. 15-29, 37-42ISBN: 9781071614174
+
+Kleinberg, Jon, Jens Ludwig, Sendhil Mullainathan, og Ziad Obermeyer. “Prediction Policy Problems”. American Economic Review 105, nr. 5 (1. maj 2015): 491–95. https://doi.org/10.1257/aer.p20151023.
+
+Breiman, Leo (2001) “Statistical Modeling: The Two Cultures.”
+
+[Performance measure for classification](https://towardsdatascience.com/8-metrics-to-measure-classification-performance-984d9d7fd7aa)
+
+[Feature Engineering](https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10)
 
 
 ##### Optional Readings
@@ -420,7 +434,10 @@ Data and script for Bisgaard
 
 
 ##### Focus
-
+* Bias vs variance trade-off  
+* Resampling methods
+* Hyperparameter tuning
+  
 
 ##### Required readings
 

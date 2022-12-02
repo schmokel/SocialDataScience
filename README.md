@@ -420,14 +420,19 @@ Breiman, Leo (2001) “Statistical Modeling: The Two Cultures.”
 
 [Performance measure for classification](https://towardsdatascience.com/8-metrics-to-measure-classification-performance-984d9d7fd7aa)
 
-[Feature Engineering](https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10)
-
 
 ##### Optional Readings
 
 
 ### Lab 
 
+[Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data)
+
+
+[Feature Engineering](https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10)
+
+
+[Titanic guide](https://www.kaggle.com/code/arunkumarramanan/data-science-in-r-and-titanic-survival-prediction)
 
 
 ## Lesson #9  - Machine Learning 2

@@ -445,7 +445,9 @@ Breiman, Leo (2001) “Statistical Modeling: The Two Cultures.”
   
 
 ##### Required readings
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, pp. 197-208, 327-348 ISBN: 9781071614174
 
+Probst, Philipp, Marvin Wright, and Anne-Laure Boulesteix. “Hyperparameters and Tuning Strategies for Random Forest.” WIREs Data Mining and Knowledge Discovery 9, no. 3 (May 2019). https://doi.org/10.1002/widm.1301.
 
 ##### Optional readings
 

@@ -439,9 +439,9 @@ Breiman, Leo (2001) “Statistical Modeling: The Two Cultures.”
 
 
 ##### Focus
-* Bias vs variance trade-off  
 * Resampling methods
 * Hyperparameter tuning
+* Random Forest
   
 
 ##### Required readings
@@ -451,8 +451,21 @@ Probst, Philipp, Marvin Wright, and Anne-Laure Boulesteix. “Hyperparameters an
 
 ##### Optional readings
 
+Wu et. al. (2019), *Hyperparameter Optimization for Machine Learning Models Based on Bayesian Optimization*, Journal of Electronic Science and Technology, https://doi.org/10.11989/JEST.1674-862X.80904120.
+
+
+[Inner workings of Decision trees](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579)
+
 
 ### lab 
+
+[Breast Cancer Data Set](LabMaterial/data/cancer_diag/data.csv)
+
+[Data Description](LabMaterial/data/cancer_diag/data_desc.txt)
+
+[Short introduction to the Caret Package](https://cran.r-project.org/web/packages/caret/vignettes/caret.html)
+
+[The Caret Package: Documentation](https://topepo.github.io/caret/)
 
 
 ## Lesson #10 - Machine Learning 3 & finale remarks

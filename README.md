@@ -412,7 +412,7 @@ Data and script for Bisgaard
 
 ##### Required Readings
 
-Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, pp. 15-29, 37-42ISBN: 9781071614174
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, pp. 15-29, 37-42 ISBN: 9781071614174
 
 Kleinberg, Jon, Jens Ludwig, Sendhil Mullainathan, og Ziad Obermeyer. “Prediction Policy Problems”. American Economic Review 105, nr. 5 (1. maj 2015): 491–95. https://doi.org/10.1257/aer.p20151023.
 
@@ -472,9 +472,23 @@ Wu et. al. (2019), *Hyperparameter Optimization for Machine Learning Models Base
 
 
 ##### Focus
-
+* Boosting
+* Super Learners
+* Regression
+* Exam Information
+* Free Lab!
 
 ##### Required Readings
+
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2021) *“An Introduction to Statistical Learning – with applications in R*, pp. 29-37 ISBN: 9781071614174
+
+Polley, Eric C. and van der Laan, Mark J., "Super Learner In Prediction" (May 2010). U.C. Berkeley Division of Biostatistics Working Paper Series. Working Paper 266.
+https://biostats.bepress.com/ucbbiostat/paper266
+
+M. J. van der Laan, E. C. Polley, and A. E. Hubbard. Super learner. Statistical Applications in
+Genetics and Molecular Biology, 6(25):Article 25, 2007.
+
+Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable of Google Flu: Traps in Big Data Analysis”. Science 343, nr. 6176 (2014): 1203–5.
 
 
 ##### Optional Readings

@@ -492,7 +492,9 @@ Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable 
 
 
 ##### Optional Readings
+* [Maskinlæring på Skolebænken](Maskinlæring_på_skolebænken_kandidatspeciale_af_Alexander_Hamann_Bach_og_Jesper_Svejgaard_Jensen.pdf)
 
+[Understanding ROC & AUC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
 
 ### Lab 
 

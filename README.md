@@ -472,7 +472,6 @@ Wu et. al. (2019), *Hyperparameter Optimization for Machine Learning Models Base
 
 
 ##### Focus
-* Boosting
 * Super Learners
 * Regression
 * Exam Information

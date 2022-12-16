@@ -459,6 +459,16 @@ Wu et. al. (2019), *Hyperparameter Optimization for Machine Learning Models Base
 
 ### lab 
 
+
+Lab question: 
+"The Danish healthcare system has experienced increasing demands from politicians and society at large to increase productivity and effectiveness. 
+As a response, suppose you are hired by OUH on CAI-X’s magic project to diagnose patients with breast cancer using Artificial intelligence. 
+As the technology is new to both the public and professionals trust is essential. 
+Therefore, it is very important that no one with breast cancer gets the wrong diagnosis.
+
+https://cai-x.com/magic/
+"
+
 [Breast Cancer Data Set](LabMaterial/data/cancer_diag/data.csv)
 
 [Data Description](LabMaterial/data/cancer_diag/data_desc.txt)
@@ -494,9 +504,17 @@ Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable 
 ##### Optional Readings
 * [Maskinlæring på Skolebænken](Maskinlæring_på_skolebænken_kandidatspeciale_af_Alexander_Hamann_Bach_og_Jesper_Svejgaard_Jensen.pdf)
 
-[Understanding ROC & AUC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+* [Understanding ROC & AUC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+
+Original AdaBoost paper
+
+*[Freund & Shappire (1996) Experiments with a New Boosting Algorithm](https://www.semanticscholar.org/paper/Experiments-with-a-New-Boosting-Algorithm-Freund.Schapire/68c1bfe375dde46777fe1ac8f3636fb651e3f0f8)
 
 ### Lab 
+
+* [General Social Survey Data Set](https://www.kaggle.com/datasets/norc/general-social-survey)
+
+* [Guide to Build a SuperLearner](https://cran.r-project.org/web/packages/SuperLearner/vignettes/Guide-to-SuperLearner.html)
 
 
 ## Bonus packs

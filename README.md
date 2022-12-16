@@ -502,13 +502,14 @@ Lazer, David, Ryan Kennedy, Gary King, og Alessandro Vespignani. “The Parable 
 
 
 ##### Optional Readings
-* [Maskinlæring på Skolebænken](Maskinlæring_på_skolebænken_kandidatspeciale_af_Alexander_Hamann_Bach_og_Jesper_Svejgaard_Jensen.pdf)
+
+* [Maskinlæring på Skolebænken](LabMaterial/Maskinlæring_på_skolebænken_kandidatspeciale_af_Alexander_Hamann_Bach_og_Jesper_Svejgaard_Jensen.pdf)
 
 * [Understanding ROC & AUC](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
 
 Original AdaBoost paper
 
-*[Freund & Shappire (1996) Experiments with a New Boosting Algorithm](https://www.semanticscholar.org/paper/Experiments-with-a-New-Boosting-Algorithm-Freund.Schapire/68c1bfe375dde46777fe1ac8f3636fb651e3f0f8)
+* [Freund & Shappire (1996) Experiments with a New Boosting Algorithm](https://www.semanticscholar.org/paper/Experiments-with-a-New-Boosting-Algorithm-Freund.Schapire/68c1bfe375dde46777fe1ac8f3636fb651e3f0f8)
 
 ### Lab 
 
